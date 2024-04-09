@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+.bgImg {
+    background: url(https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.textDiv {
+    width: 95%;
+}
+
+.Heading {
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    opacity: 0.7;
+}
+
+.subheading {
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+}
+
+.bHeading {
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+}
+
+.btns btn {
+    width: 80%;
+}
+
+.SecondDiv {
+    /* background-color: #17a2b8; */
+}
+
+.cardsDiv {
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+.cardsow {
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 1px;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    padding-bottom: 0%;
+}
+
+.card p:first-child {
+    text-align: center;
+    font-weight: 800;
+}
+
+.card {
+    text-align: center;
+}
+
+.thirdSlide {
+    background: url(https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    width: 110vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textDivContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.textDiv2{
+    background-color: rgba(255, 255, 255, 0.144);
+    height: 50%;
+}
+.subheading2{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+.Heading ul{
+    list-style-type: circle;
+
+}
+.Personalized .col-4 img:first-child{
+    width: 100%;
+    scale: 0.7;
+    margin-left: -10%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text .subheading2{
+    width: 60%;
+}
+.scnd{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 100%;
+    scale: 0.7;
+}
+.card-text{
+    text-align: center;
+}
+.istories{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+footer .container .row{
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.evaluatorFile .col-4 ul{
+    list-style-type: none;
+}
+.evaluatorFile .col-4 ul button{
+    width: 100%;
+    border: none;
+    margin: 5px;
+    padding: 4%;
+}
+.containerInside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
